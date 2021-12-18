@@ -1,0 +1,745 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    /* background-repeat: no-repeat;  cách giữ nguyên backgrourg
+    background-attachment: fixed; */ 
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background: url(old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+}
+header {
+    position: fixed;    /* cố đinh phần header */
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0.25);
+    /* padding: 10px 10px */
+    z-index: 99999;
+}
+header.mystyle {
+    background: white;
+    opacity: 0,9;
+    color: black;
+
+}
+ul li a {
+    position: relative;
+    display: block;
+    /* padding: 10px 10px; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: #c49b63;
+    font-weight: bold;
+}
+ul li .active1 {
+    background-color: #c49b63;
+
+}
+a {
+   
+    color: white !important;  /* ưu tiên chạy trước */
+ }
+.cafe2 {
+        height: 100vh; width: 100%;
+        background-image: url(nick-hillier-xBXF9pr6LQo-unsplash.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: 100%;
+        /* background-repeat: no-repeat;
+        background-attachment: fixed; */
+        /* overflow: hidden;*/
+} 
+
+.button {
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-weight: 300;
+    justify-content: space-between;
+    line-height: 27px;
+    margin: 0px 173.6px;
+    padding: 8px 15px;
+}
+header.ac {
+    background-color: black;
+    transition: 1s;
+
+}
+
+.button1 img {
+   /* width: 89px; */
+   height: 80px;
+}
+
+
+.button2 {
+    /* display: flex;
+    background-color: transparent;
+    margin:  auto;
+    width: 450px;
+    justify-content: space-between;
+    color: #fff; */
+    font-family: DM Sans;
+    font-weight: light;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    cursor: pointer;
+}
+
+.home:hover {
+     color: #c49b63;
+}
+
+.menu:hover {
+    color: #c49b63;
+    /* background-color: orange; */
+}
+
+.block:hover {
+    color: #c49b63;
+    /* background-color: orange; */
+}
+
+.shop:hover {
+    color: #c49b63;
+    /* background-color: orange; */
+}
+
+.canggiua {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 42%;
+     /* transform: translate(-50%,-50%); */
+} 
+
+.canggiua1 {
+    color: #fff;
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+.canggiua2 {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  padding-left: 90px;
+   
+}
+.home2:hover {
+    color: orange;
+}
+.menu2-12:hover {
+    color: orange;
+}
+.discovert {
+    background: black;
+    padding-top: 10px;
+}
+.discover {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.discover1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 10px; line-height: 1;
+    margin-bottom: -5px;
+    z-index: 1;
+    color: #c49b63;
+}
+.discover2 {
+    font-size: 40px;
+    color: white;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    z-index: -1;
+    font-size: 40px;
+    font-weight: 700;  
+}
+ #tongmenu {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 600px;
+            margin-top: 50px
+        
+
+        }
+ .active1 {
+   font-size: 40px;
+   list-style-type: none;
+   background-color: transparent;
+   padding: 11px 11px; 
+   border-radius: 20px;
+   text-decoration: none !important;  
+   /* border-bottom: 1px solid white; */
+} 
+.active1:hover {
+    background-color: #c49b63;
+}
+.active2 {
+    font-size: 40px;
+    list-style: none;
+    background-color: transparent;
+    padding: 11px 11px;
+    border-radius: 20px;
+    text-decoration: none; 
+    /* border-bottom: 1px solid white; */
+}
+.active2:hover {
+    background-color: #c49b63;
+}
+.active3 {
+    font-size: 40px;
+     list-style: none; /* cách xoá gạch đầu dòng */
+    background-color: transparent;
+    padding: 11px 11px; 
+    border-radius: 20px;
+    text-decoration: none; 
+    /* border-bottom: 1px solid white; */
+
+} 
+.tab-content {
+    padding-bottom: 60px ;
+}
+.active3:hover {
+    background-color: #c49b63;
+}
+
+.menutong1 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 100px;
+}
+.menu1-2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menu1-2-1 {
+    margin-top: 40px;
+    /* background-color: transparent;
+    padding: 10px 10px; */
+}
+.menu1-2-2 {
+     margin-top: 20px;
+}
+.menu1-2-3 {
+    margin-top: 20px;
+    /* background-color: transparent;
+    padding: 10px 10px; */
+}
+.menu1-2-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menu1-2-4:hover {
+    background-color: orange;
+}
+.menu2-2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menu2-2-1 {
+    margin-top: 40px;
+}
+.menu2-2-2 {
+    margin-top: 20px;
+}
+.menu2-2-3 {
+    margin-top: 20px;
+}
+.menu2-2-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menu2-2-4:hover {
+   background-color: orange;
+}
+
+.menu3-3 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menu3-3-1 {
+    margin-top: 40px;
+}
+
+.menu3-3-2 {
+    margin-top: 20px;
+}
+.menu3-3-3 {
+    margin-top: 20px;
+}
+.menu3-3-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menu3-3-4:hover {
+    background-color: orange;
+}
+.menutong2 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 100px;
+}
+.menutong2-1-1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong2-1-1-1 {
+   margin-top: 40px;
+}
+.menutong2-1-1-2 {
+    margin-top: 20px;
+}
+.menutong2-1-1-3 {
+    margin-top: 20px;
+}
+.menutong2-1-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong2-1-1-4:hover {
+    background-color: orange;
+}
+.menutong2-2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong2-2-1-1 {
+    margin-top: 40px;
+}
+.menutong2-2-1-2 {
+    margin-top: 20px;
+}
+.menutong2-2-1-3 {
+    margin-top: 20px;
+}
+.menutong2-2-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong2-2-1-4:hover {
+    background-color: orange;
+}
+.menutong2-3 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong2-3-1-1 {
+    margin-top: 40px;
+}
+.menutong2-3-1-2 {
+    margin-top: 20px;
+}
+.menutong2-3-1-3 {
+    margin-top: 20px;
+}
+.menutong2-3-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong2-3-1-4:hover {
+    background-color: orange;
+}
+.menutonglon2 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 100px;
+}
+.menutong3-1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong3-1-1 {
+    margin-top: 40px;
+}
+.menutong3-1-2 {
+    margin-top: 20px;
+}
+.menutong3-1-3 {
+    margin-top: 20px;
+}
+.menutong3-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong3-1-4:hover {
+    background-color: orange;
+}
+.menutong4 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong4-1-1 {
+    margin-top: 40px;
+}
+.menutong4-1-2 {
+    margin-top: 20px;
+}
+.menutong4-1-3 {
+    margin-top: 20px;
+}
+.menutong4-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong4-1-4:hover {
+    background-color:orange;
+}
+.menutong5 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong5-1-1 {
+    margin-top: 40px;
+}
+.menutong5-1-2 {
+    margin-top: 20px;
+}
+.menutong5-1-3 {
+    margin-top: 20px;
+}
+.menutong5-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong5-1-4:hover {
+    background-color: orange;
+}
+.menutonglon3 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 100px;
+}
+.menutong6 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong6-1-1 {
+    margin-top: 40px;
+}
+.menutong6-1-2 {
+    margin-top: 20px;
+}
+.menutong6-1-3 {
+    margin-top: 20px;
+}
+.menutong6-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong6-1-4:hover {
+    background-color: orange;
+}
+.menutong7 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong7-1-1 {
+    margin-top: 40px;
+}
+.menutong7-1-2 {
+    margin-top: 20px;
+}
+.menutong7-1-3 {
+    margin-top: 20px;
+}
+.menutong7-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong7-1-4:hover {
+    background-color: orange;
+}
+.menutong8 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong8-1-1 {
+    margin-top: 40px;
+}
+.menutong8-1-2 {
+    margin-top: 20px;
+}
+.menutong8-1-3 {
+    margin-top: 20px;
+}
+.menutong8-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong8-1-4:hover {
+    background-color: orange;
+}
+.menutong9 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong9-1-1 {
+    margin-top: 40px;
+}
+.menutong9-1-2 {
+    margin-top: 20px;
+}
+.menutong9-1-3 {
+    margin-top: 20px;
+}
+.menutong9-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong9-1-4:hover {
+    background-color: orange;
+}
+.menutong10 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong10-1-1 {
+    margin-top: 40px;
+}
+.menutong10-1-2 {
+    margin-top: 20px;
+}
+.menutong10-1-3 {
+    margin-top: 20px;
+}
+.menutong10-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong10-1-4:hover {
+    background-color:orange;
+}
+.menutong11 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong11-1-1 {
+    margin-top: 40px;
+}
+.menutong11-1-2 {
+    margin-top: 20px;
+}
+.menutong11-1-3 {
+    margin-top: 20px;
+}
+.menutong11-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong11-1-4:hover {
+    background-color:orange;
+}
+.menutonglon4 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 100px;
+}
+.menutong12 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong12-1-1 {
+    margin-top: 40px;
+}
+.menutong12-1-2 {
+    margin-top: 20px;
+}
+.menutong12-1-3 {
+    margin-top: 20px;
+}
+.menutong12-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong12-1-4:hover {
+    background-color: orange;
+}
+.menutong13-1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong13-1-1 {
+    margin-top: 40px;
+}
+.menutong13-1-2 {
+    margin-top: 20px;
+}
+.menutong13-1-3 {
+    margin-top: 20px;
+}
+.menutong13-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong13-1-4:hover {
+    background-color: orange;
+}
+.menutong14 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.menutong14-1-1 {
+    margin-top: 40px;
+}
+.menutong14-1-2 {
+    margin-top: 20px;
+}
+.menutong14-1-3 {
+    margin-top: 20px;
+}
+.menutong14-1-4 {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+.menutong14-1-4:hover {
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Background5{
+    background-image: url(./black.jpg);
+    color:white;
+    width: 100%;
+    height:30vh;
+}
+
+.Line5{
+    border: 1px solid white;
+}
+
+.Footer5{
+    display:flex;
+    color:white;
+ 
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    height:40%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.logo1 img{
+    width: 89px;
+    height:90px;
+}
+
+.Footer5_maincontent1{
+    width:30%;
+    font-size:20px;
+}
+
+.Maincontent1_text1{
+    font-weight: bold;
+}
+
+.Maincontent1_text2{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.Maincontent2_text1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Maincontent2_text2{
+    display: flex; margin-top: 10px;
+}
+
+.Maincontent2_text3{
+    display:flex; margin-top: 10px;
+}
+
+.Footer_end{
+    margin-top: 70px; 
+    text-align: center; 
+    font-size: 16px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
