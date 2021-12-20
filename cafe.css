@@ -134,13 +134,15 @@ header.ac {
   justify-content: space-between;
   width: 110px;
   padding-left: 90px;
+  width: 200px;
+  font-size: 15px;
    
 }
 .home2:hover {
-    color: orange;
+    color: orange !important;
 }
 .menu2-12:hover {
-    color: orange;
+    color: orange !important;
 }
 .discovert {
     background: black;

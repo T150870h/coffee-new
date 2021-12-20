@@ -17,6 +17,7 @@ body{
     height: 100%;
 }
 
+
 .Background1{
     background-image:
     url(./the-creative-exchange-d1ngW7SNehM-unsplash.jpg);
@@ -36,8 +37,6 @@ body{
     z-index: 9999;
     
 }
-
-
 
 .Header1{
     align-items: center;
@@ -159,6 +158,7 @@ body{
 
 
 .MENU{
+    font-size: 15px;
     text-align: center;
     margin: 0;
     padding: 15px;
@@ -171,8 +171,9 @@ body{
     border: 2px solid #c49b63;
     margin-left: 690px;
     margin-right: 690px; 
+   
 }
-.MENU .hover{
+.MENU:hover{
     background-color: #c49b63;
     color: black;
 }

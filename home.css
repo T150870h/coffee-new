@@ -146,3 +146,12 @@ a {
 .a2:hover{background: transparent;
           transition: 0.5s;
           color: #c49b63;}
+
+
+
+.welcome { 
+    text-align: center;
+    width:100%;                
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #c49b63;}
