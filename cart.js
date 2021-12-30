@@ -97,8 +97,6 @@ window.onload = function() {
      }
      btn3.addEventListener('click', function() {
          addcoffee3();
-     })
-  
-       
+     })   
     }
   
