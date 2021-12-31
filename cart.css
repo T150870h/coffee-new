@@ -1,26 +1,17 @@
-quay
-
 *{
     margin: 0;
     padding: 0;
 }
-body{
-    background: #151111;
-    font-size: 15px;
-    line-height: 1.8;
-    font-weight: 300;
-    color: #fff;
-    background: url(./old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg) no-repeat fixed;
-    background-size: cover;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-}
 
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: url(./old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg) ;
+    
+}
 
 .Background1{
     background-image:
-    url(./the-creative-exchange-d1ngW7SNehM-unsplash.jpg);
+    url(the-creative-exchange-d1ngW7SNehM-unsplash.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -37,6 +28,8 @@ body{
     z-index: 9999;
     
 }
+
+
 
 .Header1{
     align-items: center;
@@ -80,23 +73,21 @@ body{
     color: white;
 }
 
-.home:hover{
+.home a:hover{
     color: #c49b63;
 }
 
-.menu:hover{
+.menu a:hover{
     color: #c49b63;
 }
 
-.about:hover{
+.about a:hover{
     color: #c49b63;
 }
 
-.shop:hover{
+.shop a:hover{
     color: #c49b63;
 }
-
-
 .main_content1{
     position: absolute;
     width: 25%;
@@ -125,10 +116,6 @@ body{
     margin: auto;
     
 }
-.Box1.ac{
-    background-color: black !important;
-    transition: 1s;
-}
 
 .home1 a{
     text-decoration: none;
@@ -155,30 +142,25 @@ body{
 .about1 a:hover{
     color: black;
 }
-
-
 .MENU{
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     margin: 0;
     padding: 15px;
-    margin-top: 20px;
-    color: #c49b63;
+    margin-top: 50px;
     margin-bottom: 20px;
-    background-color: none;
     background-color: transparent; 
     color: #c49b63; 
     border: 2px solid #c49b63;
     margin-left: 690px;
     margin-right: 690px; 
+
    
 }
 .MENU:hover{
     background-color: #c49b63;
     color: black;
 }
-
-
 .shopp{
     display: flex;justify-content: space-between;
     width: 1200px;
@@ -196,8 +178,8 @@ body{
     color: #212529;
     flex: 0 0 100%;
     padding: 3rem!important;
-    width: 420px;
-    height: 420px;
+    width: 520px;
+    height: 320px;
     display: flex;justify-content: space-between;
     margin-top: 20px ;
 
@@ -261,171 +243,78 @@ p {
         background-color: #c49b63;
         color: white;
       }
-
-
-      /* dau bai  */
-      .Background1{
-        background-image:
-        url(the-creative-exchange-d1ngW7SNehM-unsplash.jpg);
-        background-size: cover;
+      .Background5{
+        background-image: url(./black.jpg);
+        color:white;
         width: 100%;
-        height: 100vh;
-        position: relative
-    }
-    
-    
-/* tieu de gio hang */
-    
-    .cartpage{
+        height:30vh;
         
-        margin: 80px auto;
-        margin-left: 50px;
-        margin-right: 50px;
     }
-    
-    table{
+    table {
         width: 100%;
-        border-collapse: collapse;
-    }
-
-    .cart-info{
-        display: flex; 
-        justify-content: space-between;
-        flex-wrap: wrap;
-        
-
-    }
-    
-    th{
-        text-align: left;
-        padding: 5px;
-        color: #fff;
-        background: #c49b63;
-        font-weight: normal;
-    }
-
-    .Product{
-        margin-left: 100px;
+        margin-top: 20px;
+        border: 1px solid #ddd;
+        color:  white;
+        margin-bottom: 500px;
+      }
+      td {
         text-align: center;
-    }
-
-    td{
-        padding: 10px 5px;
-    }
-    
-    td input{
-        width: 40px;
-        height: 30px;
-        padding: 5px;
-        margin-left: 18px;
-    }
-    
-    td a{
-        color: #c49b63;
-        font-size: 15px;
-    }
-    
-    td small{
-        font-size: 15px;
-    }
-    
-    td p{
-        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         
+      }
+     
+     .Line5{
+        border: 1px solid white;
     }
     
-    td img {
-        width: 120px;
-        height: 100px;
-        margin-right: 10px;
-        margin-left: 120px ;
-    }
-    
-    th{
-        padding: 20px 10px;
-        font-size: 18px;
-    }
-    
-    
-    .cardCf{
-        font-size: 15px;
-        display: flex;
+    .Footer5{
+        display:flex;
+        color:white;
+     
         justify-content: space-between;
+        width: 75%;
         margin: auto;
-        
+        height:40%;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 20px;
     }
     
-    .total-price{
-        font-size: 15px;
-        display: flex;
-        justify-content: flex-end;}
-
-
-
-    /* chan web  */
-    .Background5{
-    background-image: url(./black.jpg);
-    color:white;
-    width: 100%;
-    height:30vh;
-}
-
-.Line5{
-    border: 1px solid white;
-}
-
-.Footer5{
-    display:flex;
-    color:white;
- 
-    justify-content: space-between;
-    width: 75%;
-    margin: auto;
-    height:40%;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-}
-
-.logo1 img{
-    width: 89px;
-    height:90px;
-}
-
-.Footer5_maincontent1{
-    width:30%;
-    font-size:20px;
-}
-
-.Maincontent1_text1{
-    font-weight: bold;
-}
-
-.Maincontent1_text2{
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.Maincontent2_text1{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.Maincontent2_text2{
-    display: flex; margin-top: 10px;
-}
-
-.Maincontent2_text3{
-    display:flex; margin-top: 10px;
-}
-
-.Footer_end{
-    margin-top: 50px; 
-    text-align: center; 
-    font-size: 16px; 
-    font-family: Arial, Helvetica, sans-serif;
-}
-    .total-price table{
-        border-top: 3px solid #c49b63;
-        width: 100%;
-        max-width: 350px;
+    .logo1 img{
+        width: 89px;
+        height:90px;
+    }
+    
+    .Footer5_maincontent1{
+        width:30%;
+        font-size:20px;
+    }
+    
+    .Maincontent1_text1{
+        font-weight: bold;
+    }
+    
+    .Maincontent1_text2{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    
+    .Maincontent2_text1{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .Maincontent2_text2{
+        display: flex; margin-top: 10px;
+    }
+    
+    .Maincontent2_text3{
+        display:flex; margin-top: 10px;
+    }
+    
+    .Footer_end{
+        margin-top: 50px; 
+        text-align: center; 
+        font-size: 16px; 
+        font-family: Arial, Helvetica, sans-serif;
     }

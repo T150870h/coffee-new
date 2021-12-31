@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SHOP</title>
-  <link rel="stylesheet" href="shop.css">
+  <title>CART</title>
+  <link rel="stylesheet" href="cart.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
@@ -18,19 +18,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
     
-    <style>
-        body{
-          font-family: 'DM Sans', sans-serif;
-        }
-    </style>  
 </head>
 <body>
   <div class="Background1">
     <div class="Box1">
-      <header>
         <div class="Header1">
             <div class="logo1">
-                <img src="logocofe.png"/>
+                <img src="./logo_coffee.png" />
             </div>
 
             <div class="text1">
@@ -40,24 +34,21 @@
                 <div class="shop"><a href="">CART</a></div>
             </div>
         </div>
-      </header>
     </div>
-    <div class="main_content1">
+    <div  class="main_content1">
         
         
             <div class="text1_2">ABOUT US</div>
             <div class="text1_3">
-                <div class="home1"><a href="./index.html">HOME</a></div>
-                <div class="about1"><a href="./about.html">ABOUT</a></div>
+                <div class="home1"><a href="/index.html">HOME</a></div>
+                <div class="about1"><a href="./cafe.html">MENU</a></div>
             </div>
-    </div>
-</div>
-  </section>
 
-  <section>
-    <div class=MENU><a href="./cafe.html">MENU</a></div>
-  </section>
- <section class="shopp">
+        
+    </div>
+</div>  
+<div class=MENU><a href="./cafe.html">MENU</a></div>
+<div class="shopp">
    
   <div class="shop1">
 
@@ -67,21 +58,21 @@
           " alt="CAFFE" 
           width="193.5" 
           height="200">
-      <h3>COFFE CAPUCCINO</h3>
-      <p>A small river named Duden flows by their place and supplies</p>
-      <p class="price">$3.00</p>
-      <button class="button button1">Add to Cart</button>
+      <h3 id='coffe1' >BLACK COFFEE</h3>
+      <p >A small river named Duden flows by their place and supplies</p>
+      <p class="price" id='price1'>50000 VNĐ</p>
+      <button class="button button1" id= 'add1'>Add to Cart</button>
     </div>
   
-    <div class="mon3">
+    <div class="mon3" >
       <img src="nathan-dumlao-vZOZJH_xkUk-unsplash.jpg
           " alt="CAFFE" 
           width="193.5" 
           height="200">
-      <h3>COFFE CAPUCCINO</h3>
+      <h3 id='coffe2' >COFFEE CAPUCCINO</h3>
       <p>A small river named Duden flows by their place and supplies</p>
-      <p class="price">$3.00</p>
-      <button class="button button1">Add to Cart</button>
+      <p class="price" id='price2'>60000 VNĐ</p>
+      <button class="button button1" id= 'add2'>Add to Cart</button>
     </div>
   
     <div class="mon4">
@@ -89,56 +80,40 @@
           " alt="CAFFE" 
           width="193.5" 
           height="200">
-      <h3>COFFE CAPUCCINO</h3>
+      <h3 id='coffe3'>MILK COFFEE</h3>
       <p>A small river named Duden flows by their place and supplies</p>
-      <p class="price">$3.00</p>
-      <button class="button button1">Add to Cart</button>
+      <p class="price" id='price3'>45000 VNĐ</p>
+      <button class="button button1" id='add3'>Add to Cart</button>
     </div>
   
   </div>
   
- </section>
+</div>
+<table>
+  <thead>
+      <tr>
+          <th>STT</th>
+          <th>Food's name</th>
+          <th>price</th>
+          <th>table number</th>
+          <th>change</th>
+      </tr>
+  </thead>
+  <tbody id="tableData">
 
- <section class="CARTnen cartpage">
-        <table>
-          <tr>
-            <th></th>
-            <th class="Product">Product</th>
-            <th class="Price">Price</th>
-            <th class="Quantity">Quantity</th>
-            <th class="Subtotal">Subtotal</th>
-          </tr>
-        </table>
-        
-        <div id="cartCf"></div>
-        
-        <div class="total-price">
-          <table>
-            <tr>
-              <td>Subtotal</td>
-              <td>$30.00</td>
-            </tr>
-            <tr>
-              <td>Tax</td>
-              <td>$10.00</td>
-            </tr><tr>
-              <td>Total</td>
-              <td>$40.00</td>
-            </tr>
-          </table>
-        </div>
-        
-        
- </section>
+  </tbody>
+</table>
 
-  
- <div class="Background5">
+
+
+
+<div class="Background5">
 
   <div class="Line5"></div>
   
   <div class="Footer5">
       <div class="logo1">
-          <img src="logocofe.png" />
+          <img src="./logo_coffee.png" />
       </div>
       <div class="Footer5_maincontent1">
           <div class = "Maincontent1_text1">ABOUT US</div>
@@ -162,18 +137,18 @@
   
   <div class="Footer_end">Copyright ©2021 All rights reserved | This template is made with  by Colorlib</div>
   </div>
- 
-  <script src="./shop.js"></script>
-  <script>
-    AOS.init();
-            window.addEventListener("scroll", ()=>{
-                if(document.body.scrollTop > 10 || document.documentElement.scrollTop >10){
-                    document.querySelector("header").classList.add("ac")
-                }else{
-                    document.querySelector("header").classList.remove('ac')
-                }
-            })
-    </script>
 
+  <script src='cart.js'></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>  
+  AOS.init();
+   window.addEventListener("scroll", ()=>{
+            if(document.body.scrollTop > 10 || document.documentElement.scrollTop >10){
+                document.querySelector(".Box1").classList.add("ac")
+            }else{
+                document.querySelector(".Box1").classList.remove('ac')
+            }
+        })
+</script>
 </body>
 </html>
